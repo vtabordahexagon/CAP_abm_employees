@@ -23,3 +23,10 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
+
+
+
+---------------------------------------------------------------
++ El default-env.json que son las credenciales, se debe de obtener del servicio desde BTP en variables de ambiente, pero SOLO VCAP_SERVICES (xsuaa y hana), no el otro de APPLICATION.
+
+- Cada vez que se haga un deploy se debe de actualizar el clientSecret en la destination y el Postman para el token de autenticacion.
